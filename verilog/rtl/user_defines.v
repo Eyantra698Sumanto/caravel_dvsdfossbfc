@@ -1,3 +1,4 @@
+/* verilator lint_off EOFNEWLINE */
 // SPDX-FileCopyrightText: 2022 Efabless Corporation
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
