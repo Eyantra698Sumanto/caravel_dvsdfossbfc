@@ -39,7 +39,7 @@ Answer:</br>
 ## Step 2: Cloning the Caravel Repo:
 Forking the [Caravel User Project Repo](https://github.com/efabless/caravel_user_project) and cloning the copy.
 ```git clone https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc```
-Some points on Caravel by ChatGPT:
+Some points on Caravel by ChatGPT:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/9e95e535-26ba-45a4-96e4-afbfd776fb4f)
 
 ## Step 3: Embedding the Verilog file to the User_Project_Wrapper
@@ -102,7 +102,7 @@ ChatGPT trying to correct the scripts:
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/a9069b65-da50-45d5-9fb0-7b037e5a3f59)
 
 ## Step 7: OpenLane stuck at Detailed Route
-The flow stuck at the Detailed Route due to huge consumpsion of RAM(>6GB).
+The flow stuck at the Detailed Route due to huge consumpsion of RAM(>6GB).</br>
 
 The Repo was shifted to a Remote Desktop cloud provided by eFabless and it worked.
 
@@ -115,11 +115,11 @@ After around 2 hours the flow was successful.</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/969b1c65-c2bc-49fc-9eb2-6f9eac3fe20e)
 ## Step 10: Compressing the files
 
-The files greater than 100MB were compressed using the `make compress` command.
+The files greater than 100MB were compressed using the `make compress` command.</br>
 
 ## Step 11: Uploaded the files on Github
 
-The files were pushed using the ```git add```  and ```git push``` commands through the SSH.
+The files were pushed using the ```git add```  and ```git push``` commands through the SSH.</br>
 
 ## Step 12: MPW-Precheck Submitted to Caravel
 
