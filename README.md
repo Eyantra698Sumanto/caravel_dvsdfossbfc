@@ -11,6 +11,9 @@ Refer to [README](docs/source/index.rst#section-quickstart) for a quickstart of 
 
 Refer to [README](docs/source/index.rst) for this sample project documentation. 
 
+_____________________________________________________
+
+# AI Generated Open-Source Silicon Design Challenge
 ## Bloom Filter Counter
 
 ## Step 1: Generation of the Verilog Code using AI Generated Tool
