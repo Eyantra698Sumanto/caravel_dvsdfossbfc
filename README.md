@@ -19,7 +19,9 @@ _____________________________________________________
 ## Step 1: Generation of the Verilog Code using AI Generated Tool
 
 ### Using [ChatGPT](https://chat.openai.com/):
-I started off with asking ChatGPT to design various complicated and innovative counter. It gave a Fractional Counter, a Adaptive Counting Window Counter, a Self-Modifying Counter, a Bloom Filter Counter and various other counters. Here a few illustrations:
+I started off with asking ChatGPT to design various complicated and innovative counter. It gave a Fractional Counter, a Adaptive Counting Window Counter, a Self-Modifying Counter, a Bloom Filter Counter and various other counters. </br>
+Complete conversation can be found here: https://chat.openai.com/share/87d72c4a-db14-4f90-97f6-ba1bad512cba.</br>
+Here are a few illustrations:
 #### 1. Question Asked: Please create an innovative counter  of completely new type...</br>
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/edffcfac-1ee6-44e6-8008-6485fb7b4d9f)
@@ -36,8 +38,7 @@ Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/89b79f3a-c0f9-4bab-b4b8-e8ef9a6c02b1)</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/d777db96-8ee2-4fd8-9f8b-f89a7afab686)</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/31cb2ebd-5747-48bc-b831-e970647a065f)</br>
-<\br>
-Complete conversation can be found here: https://chat.openai.com/share/87d72c4a-db14-4f90-97f6-ba1bad512cba
+
 ______________________________________________________________________________________________________________
 ### Using [Bard](https://bard.google.com/):
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/6b7febac-07af-44b0-b410-27b5cfb749c9)
