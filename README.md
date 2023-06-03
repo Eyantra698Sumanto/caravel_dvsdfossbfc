@@ -14,21 +14,25 @@ Refer to [README](docs/source/index.rst) for this sample project documentation.
 ## Bloom Filter Counter
 
 ## Step 1: Generateion of the Verilog Code using AI Generated Tool
+______________________________________________________________________________________________________________
 ### Using [ChatGPT](https://chat.openai.com/):
 #### 1. Question Asked: Please create an innovative counter  of completely new type...</br>
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/edffcfac-1ee6-44e6-8008-6485fb7b4d9f)
+______________________________________________________________________________________________________________
 #### 2. Question Asked: more complex probablistic counter</br>
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/5954381f-3fbd-474c-9c6c-7625a42c63af)
+______________________________________________________________________________________________________________
 #### 3. Explanation given by ChatGPT:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/dfda0c0d-975b-4288-8537-35225cb1f745)
+______________________________________________________________________________________________________________
 #### 4. Question: Please explain the above counter further and how it is helpful?</br>
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/89b79f3a-c0f9-4bab-b4b8-e8ef9a6c02b1)</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/d777db96-8ee2-4fd8-9f8b-f89a7afab686)</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/31cb2ebd-5747-48bc-b831-e970647a065f)</br>
-
+______________________________________________________________________________________________________________
 ### Using [Bard](https://bard.google.com/):
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/6b7febac-07af-44b0-b410-27b5cfb749c9)
 
@@ -97,8 +101,8 @@ Also, the [OpenLane issues](https://github.com/The-OpenROAD-Project/OpenLane/iss
 Here are some debugging of TCL scripts using the ChatGPT.</br>
 
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/e3b5214d-d4ff-45e1-95d0-39aa7268df33)
-
-ChatGPT trying to correct the scripts:
+______________________________________________________________________________________________________________
+ChatGPT trying to correct the scripts:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/a9069b65-da50-45d5-9fb0-7b037e5a3f59)
 
 ## Step 7: OpenLane stuck at Detailed Route
