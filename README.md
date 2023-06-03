@@ -145,10 +145,10 @@ The files were pushed using the ```git add```  and ```git push``` commands throu
 5. [FOSSEE Team](https://esim.fossee.in/): For providing motivation
 
 # Contributor
-Sumanto Kar,
-Project Staff and M.Tech Student,
-Indian Institute of technology, Bombay
-Contact: jeetsumanto123@gmail.com
+**Sumanto Kar**</br>
+Project Staff and M.Tech Student</br>
+Indian Institute of technology, Bombay</br>
+**Contact: jeetsumanto123@gmail.com**
 
 
 
