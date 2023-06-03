@@ -17,7 +17,7 @@ _____________________________________________________
 ## Bloom Filter Counter
 
 ## Step 1: Generation of the Verilog Code using AI Generated Tool
-______________________________________________________________________________________________________________
+
 ### Using [ChatGPT](https://chat.openai.com/):
 #### 1. Question Asked: Please create an innovative counter  of completely new type...</br>
 Answer:</br>
