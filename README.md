@@ -131,6 +131,9 @@ The files were pushed using the ```git add```  and ```git push``` commands throu
 
 ## Step 14: Final Submission
 
+## Step 15: Comments made by ChatGPT on the repository
+![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/ce7da985-b47c-434c-8c12-c8322a37f13e)
+
 ## THANK YOU!
 
 # Acknowledgement
