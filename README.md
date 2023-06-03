@@ -19,7 +19,7 @@ Refer to [README](docs/source/index.rst) for this sample project documentation.
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/edffcfac-1ee6-44e6-8008-6485fb7b4d9f)
 #### 2. Question Asked: more complex probablistic counter</br>
-Answer:
+Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/5954381f-3fbd-474c-9c6c-7625a42c63af)
 #### 3. Explanation given by ChatGPT:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/dfda0c0d-975b-4288-8537-35225cb1f745)
@@ -37,8 +37,8 @@ Answer:</br>
 **However, based on the above answers, we finalized building up a Bloom Filter Counter over the results given by ChatGPT!**
 
 ## Step 2: Cloning the Caravel Repo:
-
-```git clone https://github.com/efabless/caravel_user_project```
+Forking the [Caravel User Project Repo](https://github.com/efabless/caravel_user_project) and cloning the copy.
+```git clone https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc```
 Some points on Caravel by ChatGPT:
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/9e95e535-26ba-45a4-96e4-afbfd776fb4f)
 
@@ -75,5 +75,52 @@ always @(posedge user_clock2 or posedge io_in[0]) begin
 ```
 
 The modified code is available [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/verilog/rtl/user_project_wrapper.v).
+
+## Step 4: Changes made to the config.json
+
+There were various errors as depicted in the actions page [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/actions) during the flow.</br>
+The new updated final json file can be found [HERE}(https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/openlane/user_project_wrapper/config.json)
+
+## Step 5: Run make openlane
+
+Executing the following commands to run:
+```cd caravel_dvsdfossbfc```
+```make openlane```.
+
+There were various issues which were debugged stepwise.
+
+Some of them are present [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/openlane/user_project_wrapper/config.json).
+
+Also, the [OpenLane issues](https://github.com/The-OpenROAD-Project/OpenLane/issues) page helped.
+## Step 6: Debugging with ChatGPT
+
+Here are some debugging of TCL scripts using the ChatGPT.</br>
+
+![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/e3b5214d-d4ff-45e1-95d0-39aa7268df33)
+
+ChatGPT trying to correct the scripts:
+![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/a9069b65-da50-45d5-9fb0-7b037e5a3f59)
+
+## Step 7: OpenLane stuck at Detailed Route
+The flow stuck at the Detailed Route due to huge consumpsion of RAM(>6GB).
+
+The Repo was shifted to a Remote Desktop cloud provided by eFabless and it worked.
+
+## Step 8: Setting up in the cloud
+The following steps help to set up and run OpenLane again:</br>
+https://github.com/efabless/caravel_user_project/blob/main/docs/source/index.rst#section-quickstart
+## Step 9: Flow Successful
+
+After around 2 hours the flow was successful.</br>
+![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/969b1c65-c2bc-49fc-9eb2-6f9eac3fe20e)
+## Step 10: Compressing the files
+
+The files greater than 100MB were compressed using the `make compress` command.
+
+## Step 11: Uploaded the files on Github
+
+The files were pushed using the ```git add```  and ```git push``` commands through the SSH.
+
+
 
 
