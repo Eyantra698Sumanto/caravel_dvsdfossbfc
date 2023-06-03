@@ -1,4 +1,3 @@
-/* verilator lint_off EOFNEWLINE */
 
 // SPDX-FileCopyrightText: 2020 Efabless Corporation
 //

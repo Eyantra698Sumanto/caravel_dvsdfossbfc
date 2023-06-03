@@ -35,8 +35,8 @@ set_clock_transition $::env(SYNTH_CLOCK_TRANSITION) [get_clocks {clk}]
 puts "\[INFO\]: Setting clock transition to: $::env(SYNTH_CLOCK_TRANSITION)"
 
 # Maximum transition time of the design nets
-set_max_transition $::env(SYNTH_MAX_TRAN) [current_design]
-puts "\[INFO\]: Setting maximum transition to: $::env(SYNTH_MAX_TRAN)"
+#set_max_transition $::env(SYNTH_MAX_TRAN) [current_design]
+#puts "\[INFO\]: Setting maximum transition to: $::env(SYNTH_MAX_TRAN)"
 
 # Maximum fanout
 set_max_fanout $::env(SYNTH_MAX_FANOUT) [current_design]

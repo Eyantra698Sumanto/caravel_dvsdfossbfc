@@ -1,4 +1,4 @@
-/* verilator lint_off EOFNEWLINE */
+
 // SPDX-FileCopyrightText: 2020 Efabless Corporation
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,9 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 // SPDX-License-Identifier: Apache-2.0
-/* verilator lint_off WIDTHTRUNC */
-/* verilator lint_off UNUSEDPARAM */
-/* verilator lint_off UNUSEDSIGNAL */
+
 `default_nettype none
 /*
  *-------------------------------------------------------------
@@ -56,17 +54,17 @@ module user_project_wrapper #(
     input [31:0] wbs_dat_i,
     input [31:0] wbs_adr_i,
     output wbs_ack_o,
-    //output [31:0] wbs_dat_o,
+    output [31:0] wbs_dat_o,
 
     // Logic Analyzer Signals
     input  [127:0] la_data_in,
-    //output [127:0] la_data_out,
+    output [127:0] la_data_out,
     input  [127:0] la_oenb,
 
     // IOs
     input  [`MPRJ_IO_PADS-1:0] io_in,
     output [`MPRJ_IO_PADS-1:0] io_out,
-    //output [`MPRJ_IO_PADS-1:0] io_oeb,
+    output [`MPRJ_IO_PADS-1:0] io_oeb,
 
     // Analog (direct connection to GPIO pad---use with caution)
     // Note that analog I/O is not available on the 7 lowest-numbered
@@ -78,9 +76,15 @@ module user_project_wrapper #(
     input   user_clock2,
 
     // User maskable interrupt signals
-    //output [2:0] user_irq
+    output [2:0] user_irq
 );
 
+assign io_oeb[15:0]=16'b1111_1111_1111_1111;
+assign io_oeb[`MPRJ_IO_PADS-1:16]=0;
+assign io_out=1;
+assign la_data_out=1;
+assign wbs_dat_o=1;
+assign user_irq=1;
 reg [15:0] counter;
   reg [15:0] bloomFilter;
 always @(posedge user_clock2 or posedge io_in[0]) begin
@@ -98,7 +102,7 @@ always @(posedge user_clock2 or posedge io_in[0]) begin
       end
     end
   end
-  assign io_out[15:0]=counter;
+  assign io_out[31:16]=counter;
 endmodule   // user_project_wrapper
-
+`default_nettype wire
 
