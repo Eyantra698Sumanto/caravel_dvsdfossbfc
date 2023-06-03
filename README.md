@@ -13,7 +13,7 @@ Refer to [README](docs/source/index.rst) for this sample project documentation.
 
 ## Bloom Filter Counter
 
-## Step 1: Generateion of the Verilog Code using AI Generated Tool
+## Step 1: Generation of the Verilog Code using AI Generated Tool
 ______________________________________________________________________________________________________________
 ### Using [ChatGPT](https://chat.openai.com/):
 #### 1. Question Asked: Please create an innovative counter  of completely new type...</br>
