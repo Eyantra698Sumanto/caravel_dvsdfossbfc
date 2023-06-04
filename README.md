@@ -134,7 +134,7 @@ The files were pushed using the ```git add```  and ```git push``` commands throu
 
 # Acknowledgement
 
-1. [EFabless Team](https://platform.efabless.com/):For the help in helping me fix numerous errors during the flow and providing the Remote Desktop Cloud
+1. [eFabless Team](https://platform.efabless.com/):For the help in helping me fix numerous errors during the flow and providing the Remote Desktop Cloud
 2. [GOOGLE SKYWATER Team](https://github.com/google/skywater-pdk): For providing such a platform
 3. [VSD Team](https://www.vlsisystemdesign.com/ip/): For motivation and quick debug
 4. [OpenROAD Team](https://github.com/The-OpenROAD-Project/OpenLane): For minor quick debug)
