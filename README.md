@@ -37,8 +37,8 @@ ________________________________________________________________________________
 **However, based on the above answers, we finalized building up a Bloom Filter Counter over the results given by ChatGPT!**
 
 ## Step 2: Cloning the Caravel Repo:
-Forking the [Caravel User Project Repo](https://github.com/efabless/caravel_user_project) and cloning the copy.
-```git clone https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc```
+Forking the [Caravel User Project Repo](https://github.com/efabless/caravel_user_project) and cloning the copy.</br>
+```git clone https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc```</br>
 Some points on Caravel by ChatGPT:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/9e95e535-26ba-45a4-96e4-afbfd776fb4f)
 
@@ -73,7 +73,7 @@ always @(posedge user_clock2 or posedge io_in[0]) begin
   end
   assign io_out[31:16]=counter;
 ```
-
+</br>
 The modified code is available [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/verilog/rtl/user_project_wrapper.v).
 
 ## Step 4: Changes made to the config.json
@@ -83,15 +83,15 @@ The new updated final json file can be found [HERE](https://github.com/Eyantra69
 
 ## Step 5: Run make openlane
 
-Executing the following commands to run:
-```cd caravel_dvsdfossbfc```
-```make openlane```.
+Executing the following commands to run:</br>
+```cd caravel_dvsdfossbfc```</br>
+```make openlane```.</br>
 
-There were various issues which were debugged stepwise.
+There were various issues which were debugged stepwise.</br>
 
-Some of them are present [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/openlane/user_project_wrapper/config.json).
+Some of them are present [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/openlane/user_project_wrapper/config.json).</br>
 
-Also, the [OpenLane issues](https://github.com/The-OpenROAD-Project/OpenLane/issues) page helped.
+Also, the [OpenLane issues](https://github.com/The-OpenROAD-Project/OpenLane/issues) page helped.,/br>
 ## Step 6: Debugging with ChatGPT
 
 Here are some debugging of TCL scripts using the ChatGPT.</br>
