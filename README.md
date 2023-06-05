@@ -8,7 +8,7 @@
       - [2. Question Asked. more complex probablistic counter](#2-question-asked-more-complex-probablistic-counter)
       - [3. Explanation given by ChatGPT](#3-explanation-given-by-chatgpt)
       - [4. Question Asked. Please explain the above counter further and how it is helpful?](#4-question-asked-please-explain-the-above-counter-further-and-how-it-is-helpful)
-    + [Using Bard](#using--bard)
+    + [Using Bard](#using-bard)
   * [Step 2. Cloning the Caravel Repo:](#step-2-cloning-the-caravel-repo-)
   * [Step 3. Embedding the Verilog file to the User_Project_Wrapper](#step-3-embedding-the-verilog-file-to-the-user-project-wrapper)
   * [Step 4. Changes made to the config.json](#step-4-changes-made-to-the-configjson)
