@@ -4,7 +4,7 @@
   * [About](#about)
   * [Step 1. Generation of the Verilog Code using AI Generated Tool](#step-1-generation-of-the-verilog-code-using-ai-generated-tool)
     + [Using [ChatGPT](https://chat.openai.com/):](#using--chatgpt--https---chatopenaicom---)
-      - [1. Question Asked. Please create an innovative counter  of completely new type...](#1-question-asked-please-create-an-innovative-counter-of-completely-new-type)
+      - [1. Question Asked. Please create an innovative counter  of completely new type](#1-question-asked-please-create-an-innovative-counter-of-completely-new-type)
       - [2. Question Asked. more complex probablistic counter](#2-question-asked-more-complex-probablistic-counter)
       - [3. Explanation given by ChatGPT](#3-explanation-given-by-chatgpt)
       - [4. Question Asked. Please explain the above counter further and how it is helpful?](#4-question-please-explain-the-above-counter-further-and-how-it-is-helpful)
@@ -40,7 +40,7 @@ The detaisl of the AI Generated Open-Source Silicon Design Challenge can be foun
 I started off with asking ChatGPT to design various complicated and innovative counter. It gave a Fractional Counter, a Adaptive Counting Window Counter, a Self-Modifying Counter, a Bloom Filter Counter and various other counters. </br>
 Complete conversation can be found here: https://chat.openai.com/share/87d72c4a-db14-4f90-97f6-ba1bad512cba.</br>
 Here are a few illustrations:
-#### 1. Question Asked. Please create an innovative counter  of completely new type...
+#### 1. Question Asked. Please create an innovative counter  of completely new type
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/edffcfac-1ee6-44e6-8008-6485fb7b4d9f)
 ______________________________________________________________________________________________________________
