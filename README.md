@@ -4,6 +4,36 @@ _____________________________________________________
 
 # AI Generated Open-Source Silicon Design Challenge
 ## Bloom Filter Counter
+## Table of Contents
+- [AI Generated Open-Source Silicon Design Challenge](#ai-generated-open-source-silicon-design-challenge)
+  * [Bloom Filter Counter](#bloom-filter-counter)
+  * [Step 1: Generation of the Verilog Code using AI Generated Tool](#step-1--generation-of-the-verilog-code-using-ai-generated-tool)
+    + [Using [ChatGPT](https://chat.openai.com/):](#using--chatgpt--https---chatopenaicom---)
+      - [1. Question Asked: Please create an innovative counter  of completely new type...</br>](#1-question-asked--please-create-an-innovative-counter--of-completely-new-type--br-)
+      - [2. Question Asked: more complex probablistic counter</br>](#2-question-asked--more-complex-probablistic-counter--br-)
+      - [3. Explanation given by ChatGPT:</br>](#3-explanation-given-by-chatgpt---br-)
+      - [4. Question: Please explain the above counter further and how it is helpful?</br>](#4-question--please-explain-the-above-counter-further-and-how-it-is-helpful---br-)
+    + [Using [Bard](https://bard.google.com/):](#using--bard--https---bardgooglecom---)
+  * [Step 2: Cloning the Caravel Repo:](#step-2--cloning-the-caravel-repo-)
+  * [Step 3: Embedding the Verilog file to the User_Project_Wrapper](#step-3--embedding-the-verilog-file-to-the-user-project-wrapper)
+  * [Step 4: Changes made to the config.json](#step-4--changes-made-to-the-configjson)
+  * [Step 5: Run make openlane](#step-5--run-make-openlane)
+  * [Step 6: Debugging with ChatGPT](#step-6--debugging-with-chatgpt)
+  * [Step 7: OpenLane stuck at Detailed Route](#step-7--openlane-stuck-at-detailed-route)
+  * [Step 8: Setting up in the cloud](#step-8--setting-up-in-the-cloud)
+  * [Step 9: Flow Successful](#step-9--flow-successful)
+  * [Step 10: Compressing the files](#step-10--compressing-the-files)
+  * [Step 11: Uploaded the files on Github](#step-11--uploaded-the-files-on-github)
+  * [Step 12: MPW-Precheck Submitted to Caravel](#step-12--mpw-precheck-submitted-to-caravel)
+  * [Step 13: Tapeout Submitted to MPW-PreCheck](#step-13--tapeout-submitted-to-mpw-precheck)
+  * [Step 14: Final Submission](#step-14--final-submission)
+  * [Step 15: Comments made by ChatGPT on the repository](#step-15--comments-made-by-chatgpt-on-the-repository)
+  * [THANK YOU!](#thank-you-)
+- [Acknowledgement](#acknowledgement)
+- [Contributor](#contributor)
+- [References](#references)
+- [Forked from Caravel User Project](#forked-from-caravel-user-project)
+  * [Please fill in your project documentation in this README.md file](#please-fill-in-your-project-documentation-in-this-readmemd-file)
 
 ## Step 1: Generation of the Verilog Code using AI Generated Tool
 
