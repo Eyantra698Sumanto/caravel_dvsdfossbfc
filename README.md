@@ -7,7 +7,7 @@
       - [1. Question Asked. Please create an innovative counter  of completely new type](#1-question-asked-please-create-an-innovative-counter-of-completely-new-type)
       - [2. Question Asked. more complex probablistic counter](#2-question-asked-more-complex-probablistic-counter)
       - [3. Explanation given by ChatGPT](#3-explanation-given-by-chatgpt)
-      - [4. Question Asked. Please explain the above counter further and how it is helpful?](#4-question-please-explain-the-above-counter-further-and-how-it-is-helpful)
+      - [4. Question Asked. Please explain the above counter further and how it is helpful?](#4-question-asked-please-explain-the-above-counter-further-and-how-it-is-helpful)
     + [Using [Bard](https://bard.google.com/):](#using--bard--https---bardgooglecom---)
   * [Step 2. Cloning the Caravel Repo:](#step-2-cloning-the-caravel-repo-)
   * [Step 3. Embedding the Verilog file to the User_Project_Wrapper](#step-3-embedding-the-verilog-file-to-the-user-project-wrapper)
