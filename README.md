@@ -4,7 +4,7 @@
   * [About](#about)
   * [Step 1. Generation of the Verilog Code using AI Generated Tool](#step-1-generation-of-the-verilog-code-using-ai-generated-tool)
     + [Using [ChatGPT](https://chat.openai.com/):](#using--chatgpt--https---chatopenaicom---)
-      - [1. Question Asked. Please create an innovative counter  of completely new type](#1-question-asked-please-create-an-innovative-counter-of-completely-new-type)
+      - [1. Question Asked. Please create an innovative counter  of completely new type](#1-question-asked-please-create-an-innovative-counter--of-completely-new-type))
       - [2. Question Asked. more complex probablistic counter](#2-question-asked-more-complex-probablistic-counter)
       - [3. Explanation given by ChatGPT](#3-explanation-given-by-chatgpt)
       - [4. Question Asked. Please explain the above counter further and how it is helpful?](#4-question-asked-please-explain-the-above-counter-further-and-how-it-is-helpful)
