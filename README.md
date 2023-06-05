@@ -1,33 +1,28 @@
-
-
-_____________________________________________________
-
 # AI Generated Open-Source Silicon Design Challenge
 ## Bloom Filter Counter
 ## Table of Contents
-- [AI Generated Open-Source Silicon Design Challenge](#ai-generated-open-source-silicon-design-challenge)
-  * [Bloom Filter Counter](#bloom-filter-counter)
-  * [Step 1: Generation of the Verilog Code using AI Generated Tool](#step-1--generation-of-the-verilog-code-using-ai-generated-tool)
+  * [About](#about)
+  * [Step 1. Generation of the Verilog Code using AI Generated Tool](#step-1-generation-of-the-verilog-code-using-ai-generated-tool)
     + [Using [ChatGPT](https://chat.openai.com/):](#using--chatgpt--https---chatopenaicom---)
       - [1. Question Asked: Please create an innovative counter  of completely new type...</br>](#1-question-asked--please-create-an-innovative-counter--of-completely-new-type--br-)
       - [2. Question Asked: more complex probablistic counter</br>](#2-question-asked--more-complex-probablistic-counter--br-)
       - [3. Explanation given by ChatGPT:</br>](#3-explanation-given-by-chatgpt---br-)
       - [4. Question: Please explain the above counter further and how it is helpful?</br>](#4-question--please-explain-the-above-counter-further-and-how-it-is-helpful---br-)
     + [Using [Bard](https://bard.google.com/):](#using--bard--https---bardgooglecom---)
-  * [Step 2: Cloning the Caravel Repo:](#step-2--cloning-the-caravel-repo-)
-  * [Step 3: Embedding the Verilog file to the User_Project_Wrapper](#step-3--embedding-the-verilog-file-to-the-user-project-wrapper)
-  * [Step 4: Changes made to the config.json](#step-4--changes-made-to-the-configjson)
-  * [Step 5: Run make openlane](#step-5--run-make-openlane)
-  * [Step 6: Debugging with ChatGPT](#step-6--debugging-with-chatgpt)
-  * [Step 7: OpenLane stuck at Detailed Route](#step-7--openlane-stuck-at-detailed-route)
-  * [Step 8: Setting up in the cloud](#step-8--setting-up-in-the-cloud)
-  * [Step 9: Flow Successful](#step-9--flow-successful)
-  * [Step 10: Compressing the files](#step-10--compressing-the-files)
-  * [Step 11: Uploaded the files on Github](#step-11--uploaded-the-files-on-github)
-  * [Step 12: MPW-Precheck Submitted to Caravel](#step-12--mpw-precheck-submitted-to-caravel)
-  * [Step 13: Tapeout Submitted to MPW-PreCheck](#step-13--tapeout-submitted-to-mpw-precheck)
-  * [Step 14: Final Submission](#step-14--final-submission)
-  * [Step 15: Comments made by ChatGPT on the repository](#step-15--comments-made-by-chatgpt-on-the-repository)
+  * [Step 2. Cloning the Caravel Repo:](#step-2-cloning-the-caravel-repo-)
+  * [Step 3. Embedding the Verilog file to the User_Project_Wrapper](#step-3-embedding-the-verilog-file-to-the-user-project-wrapper)
+  * [Step 4. Changes made to the config.json](#step-4-changes-made-to-the-configjson)
+  * [Step 5. Run make openlane](#step-5-run-make-openlane)
+  * [Step 6. Debugging with ChatGPT](#step-6-debugging-with-chatgpt)
+  * [Step 7. OpenLane stuck at Detailed Route](#step-7-openlane-stuck-at-detailed-route)
+  * [Step 8. Setting up in the cloud](#step-8-setting-up-in-the-cloud)
+  * [Step 9. Flow Successful](#step-9-flow-successful)
+  * [Step 10. Compressing the files](#step-10-compressing-the-files)
+  * [Step 11. Uploaded the files on Github](#step-11-uploaded-the-files-on-github)
+  * [Step 12. MPW-Precheck Submitted to Caravel](#step-12-mpw-precheck-submitted-to-caravel)
+  * [Step 13. Tapeout Submitted to MPW-PreCheck](#step-13-tapeout-submitted-to-mpw-precheck)
+  * [Step 14. Final Submission](#step-14-final-submission)
+  * [Step 15. Comments made by ChatGPT on the repository](#step-15-comments-made-by-chatgpt-on-the-repository)
   * [THANK YOU!](#thank-you-)
 - [Acknowledgement](#acknowledgement)
 - [Contributor](#contributor)
@@ -35,7 +30,11 @@ _____________________________________________________
 - [Forked from Caravel User Project](#forked-from-caravel-user-project)
   * [Please fill in your project documentation in this README.md file](#please-fill-in-your-project-documentation-in-this-readmemd-file)
 
-## Step 1: Generation of the Verilog Code using AI Generated Tool
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## About
+The detaisl of the AI Generated Open-Source Silicon Design Challenge can be found here: https://efabless.com/ai-generated-design-contest
+## Step 1. Generation of the Verilog Code using AI Generated Tool
 
 ### Using [ChatGPT](https://chat.openai.com/):
 I started off with asking ChatGPT to design various complicated and innovative counter. It gave a Fractional Counter, a Adaptive Counting Window Counter, a Self-Modifying Counter, a Bloom Filter Counter and various other counters. </br>
@@ -66,13 +65,13 @@ ________________________________________________________________________________
 
 **However, based on the above answers, we finalized building up a Bloom Filter Counter over the results given by ChatGPT!**
 
-## Step 2: Cloning the Caravel Repo:
+## Step 2. Cloning the Caravel Repo:
 Forking the [Caravel User Project Repo](https://github.com/efabless/caravel_user_project) and cloning the copy.</br>
 ```git clone https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc```</br>
 Some points on Caravel by ChatGPT:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/9e95e535-26ba-45a4-96e4-afbfd776fb4f)
 
-## Step 3: Embedding the Verilog file to the User_Project_Wrapper
+## Step 3. Embedding the Verilog file to the User_Project_Wrapper
 
 For simplicity, the above [Bloom Counter Generated by ChatGPT](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/verilog/rtl/dvsdfossbfc.v) was Embedded in User_Project_Wrapper.
 </br>
@@ -106,12 +105,12 @@ always @(posedge user_clock2 or posedge io_in[0]) begin
 </br>
 The modified code is available [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/verilog/rtl/user_project_wrapper.v).
 
-## Step 4: Changes made to the config.json
+## Step 4. Changes made to the config.json
 
 There were various errors as depicted in the actions page [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/actions) during the flow.</br>
 The new updated final json file can be found [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/openlane/user_project_wrapper/config.json)
 
-## Step 5: Run make openlane
+## Step 5. Run make openlane
 
 Executing the following commands to run:</br>
 ```cd caravel_dvsdfossbfc```</br>
@@ -122,7 +121,7 @@ There were various issues which were debugged stepwise.</br>
 Some of them are present [HERE](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/blob/main/openlane/user_project_wrapper/config.json).</br>
 
 Also, the [OpenLane issues](https://github.com/The-OpenROAD-Project/OpenLane/issues) page helped.,/br>
-## Step 6: Debugging with ChatGPT
+## Step 6. Debugging with ChatGPT
 
 Here are some debugging of TCL scripts using the ChatGPT.</br>
 
@@ -131,33 +130,33 @@ ________________________________________________________________________________
 ChatGPT trying to correct the scripts:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/a9069b65-da50-45d5-9fb0-7b037e5a3f59)
 
-## Step 7: OpenLane stuck at Detailed Route
+## Step 7. OpenLane stuck at Detailed Route
 The flow stuck at the Detailed Route due to huge consumpsion of RAM(>6GB).</br>
 
 The Repo was shifted to a Remote Desktop cloud provided by eFabless and it worked.
 
-## Step 8: Setting up in the cloud
+## Step 8. Setting up in the cloud
 The following steps help to set up and run OpenLane again:</br>
 https://github.com/efabless/caravel_user_project/blob/main/docs/source/index.rst#section-quickstart
-## Step 9: Flow Successful
+## Step 9. Flow Successful
 
 After around 2 hours the flow was successful.</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/969b1c65-c2bc-49fc-9eb2-6f9eac3fe20e)
-## Step 10: Compressing the files
+## Step 10. Compressing the files
 
 The files greater than 100MB were compressed using the `make compress` command.</br>
 
-## Step 11: Uploaded the files on Github
+## Step 11. Uploaded the files on Github
 
 The files were pushed using the ```git add```  and ```git push``` commands through the SSH.</br>
 
-## Step 12: MPW-Precheck Submitted to Caravel
+## Step 12. MPW-Precheck Submitted to Caravel
 
-## Step 13: Tapeout Submitted to MPW-PreCheck
+## Step 13. Tapeout Submitted to MPW-PreCheck
 
-## Step 14: Final Submission
+## Step 14. Final Submission
 
-## Step 15: Comments made by ChatGPT on the repository
+## Step 15. Comments made by ChatGPT on the repository
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/ce7da985-b47c-434c-8c12-c8322a37f13e)
 
 ## THANK YOU!
