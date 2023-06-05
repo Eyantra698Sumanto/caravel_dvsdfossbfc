@@ -4,10 +4,10 @@
   * [About](#about)
   * [Step 1. Generation of the Verilog Code using AI Generated Tool](#step-1-generation-of-the-verilog-code-using-ai-generated-tool)
     + [Using [ChatGPT](https://chat.openai.com/):](#using--chatgpt--https---chatopenaicom---)
-      - [1. Question Asked. Please create an innovative counter  of completely new type...</br>](#1-question-asked-please-create-an-innovative-counter--of-completely-new-type--br-)
-      - [2. Question Asked. more complex probablistic counter</br>](#2-question-asked-more-complex-probablistic-counter--br-)
-      - [3. Explanation given by ChatGPT:</br>](#3-explanation-given-by-chatgpt---br-)
-      - [4. Question: Please explain the above counter further and how it is helpful?</br>](#4-question--please-explain-the-above-counter-further-and-how-it-is-helpful---br-)
+      - [1. Question Asked. Please create an innovative counter  of completely new type...</br>](#1-question-asked-please-create-an-innovative-counter-of-completely-new-type)
+      - [2. Question Asked. more complex probablistic counter</br>](#2-question-asked-more-complex-probablistic-counter)
+      - [3. Explanation given by ChatGPT:</br>](#3-explanation-given-by-chatgpt)
+      - [4. Question Asked. Please explain the above counter further and how it is helpful?</br>](#4-question-please-explain-the-above-counter-further-and-how-it-is-helpful)
     + [Using [Bard](https://bard.google.com/):](#using--bard--https---bardgooglecom---)
   * [Step 2. Cloning the Caravel Repo:](#step-2-cloning-the-caravel-repo-)
   * [Step 3. Embedding the Verilog file to the User_Project_Wrapper](#step-3-embedding-the-verilog-file-to-the-user-project-wrapper)
@@ -40,18 +40,18 @@ The detaisl of the AI Generated Open-Source Silicon Design Challenge can be foun
 I started off with asking ChatGPT to design various complicated and innovative counter. It gave a Fractional Counter, a Adaptive Counting Window Counter, a Self-Modifying Counter, a Bloom Filter Counter and various other counters. </br>
 Complete conversation can be found here: https://chat.openai.com/share/87d72c4a-db14-4f90-97f6-ba1bad512cba.</br>
 Here are a few illustrations:
-#### 1. Question Asked. Please create an innovative counter  of completely new type...</br>
+#### 1. Question Asked. Please create an innovative counter  of completely new type...
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/edffcfac-1ee6-44e6-8008-6485fb7b4d9f)
 ______________________________________________________________________________________________________________
-#### 2. Question Asked. more complex probablistic counter</br>
+#### 2. Question Asked. more complex probablistic counter
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/5954381f-3fbd-474c-9c6c-7625a42c63af)
 ______________________________________________________________________________________________________________
-#### 3. Explanation given by ChatGPT:</br>
+#### 3. Explanation given by ChatGPT
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/dfda0c0d-975b-4288-8537-35225cb1f745)
 ______________________________________________________________________________________________________________
-#### 4. Question: Please explain the above counter further and how it is helpful?</br>
+#### 4. Question Asked. Please explain the above counter further and how it is helpful?
 Answer:</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/89b79f3a-c0f9-4bab-b4b8-e8ef9a6c02b1)</br>
 ![image](https://github.com/Eyantra698Sumanto/caravel_dvsdfossbfc/assets/58599984/d777db96-8ee2-4fd8-9f8b-f89a7afab686)</br>
